@@ -48,7 +48,7 @@ function buildButton() {
     const btn = document.createElement("button");
     btn.setAttribute("class", "btn btn-primary");
     btn.setAttribute("onclick", "getDataJoke()");
-    btn.innerText = "cliquez-ici";
+    btn.innerText = "Cliquez-ici";
 
     app.appendChild(container);
     container.appendChild(row);
